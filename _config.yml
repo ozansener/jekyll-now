@@ -11,6 +11,12 @@ description: Zehra's Blog
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: heiswayi/the-plain
+
 #
 # Flags below are optional
 #
@@ -80,12 +86,6 @@ gems:
 # Exclude these files from your production _site
 exclude:
   - Gemfile
-  - Gemfile.lock
   - LICENSE
   - README.md
   - CNAME
-
-plugins:
-  - jekyll-remote-theme
-
-remote_theme: heiswayi/the-plain
